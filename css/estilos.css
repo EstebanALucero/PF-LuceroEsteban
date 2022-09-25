@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 18%;
+    background-image: url(../assets/images/Background/background.jpg);
+}
+.letra-mio {
+    font-family: Parisienne;
+}
+
+/* Index */
+
+#mainindex {
+    height: 75%;
+    background-image: linear-gradient(rgba(0,255,127,1) 40%, rgba(10,175,163,1) 100%);
+    color: #0A1C26;
+}
+
+/* Libros */
+
+#mainlibros {
+    height: 75%;
+    background-image: linear-gradient(rgba(0,255,127,1) 40%, rgba(10,175,163,1) 100%);
+}
+
+/* Logo Flotante */
+
+.main__flotante__img {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+footer {
+    height: 7%;
+    background-color: #0aafa3;
+    color: #F02624;
+    font-family: Orbitron;
+    font-size: 1.5rem;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #F02624;
+}
