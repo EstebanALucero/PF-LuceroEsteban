@@ -12,19 +12,22 @@ header {
     font-family: Parisienne;
 }
 
-/* Index */
-
-#mainindex {
+main {
     height: 75%;
     background-image: linear-gradient(rgba(0,255,127,1) 40%, rgba(10,175,163,1) 100%);
     color: #0A1C26;
 }
 
-/* Libros */
+/* Index */
 
-#mainlibros {
-    height: 75%;
-    background-image: linear-gradient(rgba(0,255,127,1) 40%, rgba(10,175,163,1) 100%);
+main div div section div a {
+    text-decoration: none;
+    color: #0A1C26;
+}
+
+.tamaño_mio {
+    height: 420px;
+    width: 300px;
 }
 
 /* Logo Flotante */
