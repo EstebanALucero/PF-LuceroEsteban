@@ -18,6 +18,11 @@ main {
     color: #0A1C26;
 }
 
+.letra-cuerpo-mio {
+    font-family: Crimson Text;
+    color: #0A1C26;
+}
+
 /* Index */
 
 main div div section div a {
@@ -26,8 +31,21 @@ main div div section div a {
 }
 
 .tamaño_mio {
-    height: 420px;
-    width: 300px;
+    height: 340px;
+    width: 250px;
+}
+
+/* Yu yu hakusho */
+
+.tamaño-yuyu {
+    width: 200px;
+    height: 290px;
+    margin-bottom: 5px;
+}
+
+main div section div a {
+    text-decoration: none;
+    color: #0A1C26;
 }
 
 /* Logo Flotante */
