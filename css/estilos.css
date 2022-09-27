@@ -44,6 +44,13 @@ main div div section div a {
     margin-bottom: 2.5rem;
 }
 
+/* Libros */
+
+main section div nav ul li a {
+    text-decoration: none !important;
+    color: #0A1C26 !important;
+}
+
 /* Yu yu hakusho */
 
 .tamaño-yuyu {
