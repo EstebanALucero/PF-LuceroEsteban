@@ -9,7 +9,11 @@ header {
     background-image: url(../assets/images/Background/background.jpg);
 }
 .letra-mio {
+    text-decoration: none !important;
+    color: #F02624 !important;
     font-family: Parisienne;
+    font-size: 3rem;
+    margin-right: 4rem;
 }
 
 /* Index */
