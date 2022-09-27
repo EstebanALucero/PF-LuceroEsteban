@@ -31,8 +31,17 @@ main div div section div a {
 }
 
 .tamaño_mio {
-    height: 340px;
-    width: 250px;
+    height: 330px;
+    width: 240px;
+}
+
+.img-logo {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.margen-mio {
+    margin-bottom: 2.5rem;
 }
 
 /* Yu yu hakusho */
