@@ -46,9 +46,70 @@
     <main>
         <div class="container">
             <div class="row text-center">
+                <section class="col"><h1>REload - Formulario</h1></section>
+                <form class="needs-validation text-start">
+                    <section class="row">
+                        <label class="text-center">Ingrese sus datos segun el documento</label>
+                        <div class="col-6 row">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre" required>
+                        </div>
+                        <div class="col-6 row">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido" required>
+                        </div>
+                        <div class="col-6 row">
+                            <label for="nacimiento" class="form-label">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="nacimiento" required>
+                        </div>
+                        <div class="col-6 row">
+                            <label for="genero" class="form-label">Indique su genero</label>
+                            <div class="form-check col text-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="masculino" required>
+                                <label class="form-check-label" for="masculino">
+                                    Masculino
+                                </label>
+                            </div>
+                            <div class="form-check col text-center">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"    id="femenino" required>
+                                <label class="form-check-label" for="femenino">
+                                    Femenino
+                                </label>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="text-center">
+                        <label>Para contactarlo</label>
+                        <div class="row mb-3">
+                            <label for="email" class="form-label col-3">Ingresar Email:</label>
+                            <input type="email" class="form-control col" id="email" placeholder="Direccion@ejemplo.com">
+                        </div>
+                        <div class="row mb-3">
+                            <label for="telefono" class="form-label col-3">Ingresar numero de telefono:</label>
+                            <input type="text" class="form-control col" id="telefono" placeholder="264XXXXXXX">
+                        </div>
+                    </section>
+                    <section class="row text-center">
+                        <label>Comentarios</label>
+                        <div class="row mb-3">
+                            <label for="servicio" class="form-label col-3">Como le parecio el servicio</label>
+                            <input type="range" class="form-range col" min="0" max="5" id="servicio">
+                        </div>
+                        <div class="row mb-3">
+                            <label for="comentario" class="col-3">Alguna sugerencia:</label>
+                            <textarea class="form-control col" placeholder="Escriba su comentario" id="comentario"></textarea>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-12 text-end">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                            <button class="btn btn-primary" type="reset">Borrar</button>
+                        </div>
+                    </section>
+                </form>
             </div>
         </div>
-        <div class="main__flotante"><a href="https://web.whatsapp.com" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/002/534/047/original/social-media-whatsapp-black-logo-mobile-app-icon-free-free-vector.jpg" alt="" class="main__flotante__img"></a></div>
+        <div class="main__flotante"><a href="https://web.whatsapp.com" target="_blank"><img src="../assets/images/Logo/WhatsApp.png" alt="" class="main__flotante__img"></a></div>
     </main>
 
     <footer class="container-fluid">
