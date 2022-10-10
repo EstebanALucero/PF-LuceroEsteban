@@ -80,22 +80,22 @@
                     </section>
                     <section class="text-center">
                         <label>Para contactarlo</label>
-                        <div class="row mb-3">
+                        <div class="row mb-3 col-6">
                             <label for="email" class="form-label col-3">Ingresar Email:</label>
-                            <input type="email" class="form-control col" id="email" placeholder="Direccion@ejemplo.com">
+                            <input type="email" class="form-control col" id="email" placeholder="Direccion@ejemplo.com" required>
                         </div>
-                        <div class="row mb-3">
-                            <label for="telefono" class="form-label col-3">Ingresar numero de telefono:</label>
-                            <input type="text" class="form-control col" id="telefono" placeholder="264XXXXXXX">
+                        <div class="row mb-3 col-5">
+                            <label for="telefono" class="form-label col-6">Ingresar numero de telefono:</label>
+                            <input type="tel" class="col form-control" id="telefono" placeholder="264XXXXXXX">
                         </div>
                     </section>
                     <section class="row text-center">
                         <label>Comentarios</label>
-                        <div class="row mb-3">
-                            <label for="servicio" class="form-label col-3">Como le parecio el servicio</label>
-                            <input type="range" class="form-range col" min="0" max="5" id="servicio">
+                        <div class="row mb-3 col-6">
+                            <label for="servicio" class="form-label col-5">Como le parecio el servicio:</label>
+                            <input type="range" class="form-range col" min="0" max="10" id="servicio">
                         </div>
-                        <div class="row mb-3">
+                        <div class="row mb-3 col-7">
                             <label for="comentario" class="col-3">Alguna sugerencia:</label>
                             <textarea class="form-control col" placeholder="Escriba su comentario" id="comentario"></textarea>
                         </div>
