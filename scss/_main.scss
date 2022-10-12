@@ -1,0 +1,14 @@
+main {
+    height: 75%;
+    background-image: linear-gradient(rgba(0,255,127,1) 40%, rgba(10,175,163,1) 100%);
+    color: #0A1C26;
+    div {
+        .flotante {
+            width: 75px;
+            height: 75px;
+            position: fixed;
+            bottom: 3rem;
+            right: 1rem;
+        }
+    }
+}

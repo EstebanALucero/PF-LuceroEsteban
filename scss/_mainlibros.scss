@@ -1,0 +1,52 @@
+main {
+    div {
+        div {
+            section {
+                div {
+                    a{
+                        .letra-cuerpo-mio {
+                            font-family: Crimson Text;
+                            color: #0A1C26;
+                        }
+                        h6 {
+                            font-size: 2rem;
+                        }
+                        text-decoration: none;
+                        color: #0A1C26;
+                        div {
+                            .tamaño_libros {
+                                width: 170px;
+                                height: 240px;
+                            }
+                            .letra-cuerpo-mio {
+                                font-family: Crimson Text;
+                                color: #0A1C26;
+                            }
+                        }
+                    }
+                }
+            }
+            section {
+                .letra-mio {
+                    text-decoration: none !important;
+                    color: #F02624 !important;
+                    font-family: Parisienne;
+                    font-size: 3rem;
+                    margin-right: 4rem;
+                }
+                div {
+                    a{
+                        .letra-cuerpo-mio {
+                            font-family: Crimson Text;
+                            color: #0A1C26;
+                        }
+                        .tamaño_libros {
+                            width: 170px;
+                            height: 240px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
