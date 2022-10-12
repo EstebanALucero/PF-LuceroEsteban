@@ -171,6 +171,24 @@ main div section div .tamaño_mio {
   height: 330px;
   width: 240px; }
 
+main div div section .letra-mio {
+  text-decoration: none !important;
+  color: #F02624 !important;
+  font-family: Parisienne;
+  font-size: 3rem;
+  margin-right: 4rem; }
+
+main div div form section .letra-form {
+  font-family: Orbitron;
+  font-size: 2rem;
+  color: #0A1C26; }
+
+main div div form section div {
+  font-family: Crimson Text;
+  color: #0A1C26; }
+  main div div form section div .mg-propio {
+    margin-top: 2rem; }
+
 footer {
   height: 7%;
   background-color: #0aafa3;
