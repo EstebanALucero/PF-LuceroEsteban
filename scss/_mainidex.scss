@@ -30,8 +30,11 @@ main {
             }
             section {
                 article {
-                    a {
-                        text-decoration: none;
+                    div {
+                        a {
+                            text-decoration: none;
+                            color: #68F205;
+                        }
                     }
                 }
             }
@@ -43,6 +46,12 @@ main {
                     font-family: Parisienne;
                     font-size: 3rem;
                     margin-right: 4rem;
+                }
+                div {
+                    a {
+                        text-decoration: none;
+                        color: #68F205;
+                    }
                 }
             }
         }
