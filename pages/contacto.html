@@ -47,24 +47,24 @@
 
     <main>
         <div class="container">
-            <div class="row text-center">
-                <section class="col"><h1 class="letra-mio">REload - Formulario</h1></section>
+            <div class="row">
+                <section class="col-12 text-center"><p class="letra-mio">REload Formulario</p></section>
                 <form method="post" class="needs-validation text-start">
-                    <section class="row cols-2">
-                        <label class="text-center letra-form">Ingrese sus datos segun el documento</label>
-                        <div class="col-6">
-                            <label for="nombre" class="form-label mg-propio">Nombre</label>
+                    <section class="row">
+                        <p class="col-12 text-center letra-form">Ingrese sus datos segun el documento</p>
+                        <div class="col-12 col-md-6">
+                            <label for="nombre" class="col-12 col-md-6 form-label mg-propio">Nombre</label>
                             <div class="col-12 col-md-6"><input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre" required></div>
                         </div>
-                        <div class="col-6">
-                            <label for="apellido" class="form-label mg-propio">Apellido</label>
+                        <div class="col-12 col-md-6">
+                            <label for="apellido" class="col-12 col-md-6 form-label mg-propio">Apellido</label>
                             <div class="col-12 col-md-6"><input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido" required></div>
                         </div>
-                        <div class="col-6">
-                            <label for="nacimiento" class="form-label mg-propio">Fecha de nacimiento</label>
+                        <div class="col-12 col-md-6">
+                            <label for="nacimiento" class=" col-12 col-md-6 form-label mg-propio">Fecha de nacimiento</label>
                             <div class="col-8 col-md-6 col-lg-4"><input type="date" class="form-control" id="nacimiento" required></div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <label for="genero" class="form-label mg-propio">Indique su genero</label>
                             <div class="row">
                                 <div class="form-check col text-center">
@@ -82,30 +82,30 @@
                             </div>
                         </div>
                     </section>
-                    <section class="text-center">
-                        <label class="letra-form">Para contactarlo</label>
+                    <section>
+                        <p class="col-12 text-center letra-form">Para contactarlo</p>
                         <div class="row">
-                            <label for="email" class="form-label col-3 mg-propio">Ingresar Email:</label>
-                            <div class="col-8 col-md-5 mg-propio"><input type="email" class="form-control col" id="email" placeholder="Direccion@ejemplo.com" required></div>
+                            <label for="email" class="form-label col-12 col-md-6 col-lg-3 mg-propio">Ingresar Email:</label>
+                            <div class="col-12 col-md-6 mg-propio"><input type="email" class="form-control col" id="email" placeholder="Direccion@ejemplo.com" required></div>
                         </div>
                         <div class="row">
-                            <label for="telefono" class="form-label col-3 mg-propio">Ingresar numero de telefono:</label>
-                            <div class="col-5 col-lg-2 mg-propio"><input type="tel" class="col form-control" id="telefono" placeholder="264XXXXXXX"></div>
-                        </div>
-                    </section>
-                    <section class="row text-center">
-                        <label class="letra-form">Comentarios</label>
-                        <div class="row">
-                            <label for="servicio" class="form-label col-3 mg-propio">Como le parecio el servicio:</label>
-                            <div class="col-8 col-md-5 mg-propio"><input type="range" class="form-range" min="0" max="10" id="servicio"></div>
-                        </div>
-                        <div class="row">
-                            <label for="comentario" class="col-3 mg-propio">Alguna sugerencia:</label>
-                            <div class="col-8 col-md-5 mg-propio"><textarea class="form-control col" placeholder="Escriba su comentario" id="comentario"></textarea></div>
+                            <label for="telefono" class="form-label col-12 col-md-6 col-lg-3 mg-propio">Ingresar numero de telefono:</label>
+                            <div class="col-12 col-md-6 mg-propio"><input type="tel" class="col form-control" id="telefono" placeholder="264XXXXXXX"></div>
                         </div>
                     </section>
                     <section class="row">
-                        <div class="col-12 text-star">
+                        <p class="col-12 text-center letra-form">Comentarios</p>
+                        <div class="row">
+                            <label for="servicio" class="form-label col-12 col-md-6 col-lg-3 mg-propio">Como le parecio el servicio:</label>
+                            <div class="col-12 col-md-6 col-md-5 mg-propio"><input type="range" class="form-range" min="0" max="10" id="servicio"></div>
+                        </div>
+                        <div class="row">
+                            <label for="comentario" class="col-12 col-md-6 col-lg-3 mg-propio">Alguna sugerencia:</label>
+                            <div class="col-12 col-md-6 col-md-5 mg-propio"><textarea class="form-control col" placeholder="Escriba su comentario" id="comentario"></textarea></div>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="col-12 text-end">
                             <button class="btn btn-danger" type="submit">Enviar</button>
                             <button class="btn btn-danger" type="reset">Borrar</button>
                         </div>

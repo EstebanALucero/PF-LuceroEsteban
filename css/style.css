@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ main {
   font-family: Crimson Text;
   color: #68F205;
   padding-top: 3rem;
-  background-image: url(../assets/images/Background/background.jpg); }
+  background-image: url(../assets/images/Background/backgroundmain.webp); }
 
 main div div section {
   margin-bottom: 1rem; }
@@ -50,60 +49,30 @@ main div div section {
     margin-right: 4rem; }
 
 main div div section article a {
-  text-decoration: none;
-  color: #0A1C26; }
-  main div div section article a .letra-cuerpo-mio {
-    font-family: Crimson Text;
-    color: #0A1C26; }
+  text-decoration: none; }
   main div div section article a h6 {
     font-size: 2rem; }
-  main div div section article a div .tamaño_libros {
-    width: 170px;
-    height: 240px; }
-  main div div section article a div .letra-cuerpo-mio {
-    font-family: Crimson Text;
-    color: #0A1C26; }
 
 main div div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
 
-main div div section div article a .letra-cuerpo-mio {
-  font-family: Crimson Text;
-  color: #0A1C26; }
-
-main div div section div article a .tamaño_libros {
-  width: 170px;
-  height: 240px; }
-
 main div div nav div .letra-boton {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Orbitron; }
-
-main div div div div section article .tamaño_mio {
-  height: 330px;
-  width: 240px; }
-
-main div div div div section article div .letra-cuerpo-mio {
-  font-family: Crimson Text;
-  color: #0A1C26; }
 
 main div div div div section article div .letra-boton {
   text-decoration: none !important;
   color: #F02624 !important;
   font-family: Orbitron; }
 
-main div section .letra-cuerpo-mio {
-  font-family: Crimson Text;
-  color: #0A1C26; }
-
 main div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
@@ -113,8 +82,8 @@ main div section .video {
   height: 315px; }
 
 main div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
@@ -123,8 +92,8 @@ main div section div .margen-yuyu {
   margin-bottom: 5px; }
 
 main div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
@@ -133,39 +102,28 @@ main div section div .margen-yuyu {
   margin-bottom: 5px; }
 
 main div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
-
-main div section .letra-cuerpo-mio {
-  font-family: Crimson Text;
-  color: #0A1C26; }
 
 main div section div a {
-  text-decoration: none;
-  color: #0A1C26; }
-
-main div section div .tamaño_mio {
-  height: 330px;
-  width: 240px; }
+  text-decoration: none; }
 
 main div div section .letra-mio {
-  text-decoration: none !important;
-  color: #F02624 !important;
+  text-decoration: none;
+  color: #F02624;
   font-family: Parisienne;
   font-size: 3rem;
   margin-right: 4rem; }
 
 main div div form section .letra-form {
   font-family: Orbitron;
-  font-size: 2rem;
-  color: #0A1C26; }
+  font-size: 2rem; }
 
 main div div form section div {
-  font-family: Crimson Text;
-  color: #0A1C26; }
+  font-family: Crimson Text; }
   main div div form section div .mg-propio {
     margin-top: 2rem; }
 
