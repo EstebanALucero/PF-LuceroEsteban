@@ -12,8 +12,9 @@ header {
     font-family: Parisienne;
     font-size: 3rem;
     margin-right: 4rem; }
-  header nav div div ul li .letra-dos {
-    font-family: Orbitron; }
+  header nav div div ul li a {
+    font-family: Orbitron;
+    color: #F02624; }
 
 main {
   height: 75%;
@@ -135,11 +136,11 @@ main div div form section div {
 
 footer {
   height: 7%;
-  background-color: #010937;
+  background-image: url(../assets/images/Background/istockphoto-1275880554-612x612.jpg);
   color: #F02624;
   font-family: Orbitron;
   font-size: 1.5rem; }
-  footer div a {
+  footer div p {
     text-decoration: none;
-    color: #F02624;
+    color: white;
     font-size: 1rem; }
