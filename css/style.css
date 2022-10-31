@@ -12,9 +12,11 @@ header {
     font-family: Parisienne;
     font-size: 3rem;
     margin-right: 4rem; }
-  header nav div div ul li a {
-    font-family: Orbitron;
-    color: #F02624; }
+  header nav div div ul li {
+    font-family: Orbitron; }
+  header nav div div ul div li ul {
+    text-decoration: none;
+    font-family: Orbitron; }
 
 main {
   height: 75%;

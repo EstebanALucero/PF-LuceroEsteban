@@ -13,9 +13,14 @@ header {
             div {
                 ul {
                     li {
-                        a {
-                            font-family: Orbitron;
-                            color: #F02624;
+                        font-family: Orbitron;
+                        }
+                    div {
+                        li {
+                            ul {
+                                    text-decoration: none;
+                                    font-family: Orbitron;
+                            }
                         }
                     }
                 }
@@ -23,3 +28,4 @@ header {
         }
     }
 }
+
