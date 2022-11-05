@@ -7,11 +7,16 @@ main {
                     color: $colores-titulos;
                     font-family: $fuente-titulos;
                 }
+                .b_inferior {
+                    border-bottom: 5px groove #20df20;
+                }
             }
-            div {
-                .img-comic {
-                    width: $ancho-imagenes;
-                    height: $alto-imagenes;
+            article {
+                div {
+                    .img-comic {
+                        width: $ancho-imagenes;
+                        height: $alto-imagenes;
+                    }
                 }
             }
         }

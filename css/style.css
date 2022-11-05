@@ -71,9 +71,12 @@ main div section div h2 {
   color: #F02624;
   font-family: Parisienne; }
 
-main div section div .img-comic {
+main div section div .b_inferior {
+  border-bottom: 5px groove #20df20; }
+
+main div section article div .img-comic {
   width: 240px;
-  height: 300px; }
+  height: 330px; }
 
 main div div nav div .letra-boton {
   text-decoration: none;
