@@ -3,9 +3,9 @@ main {
         section {
             .letra-mio {
                 text-decoration: none;
-                color: #F02624;
-                font-family: Parisienne;
-                font-size: 3rem;
+                font-size: $tamaño-titulos;
+                color: $colores-titulos;
+                font-family: $fuente-titulos;
             }
             .video {
                 width: 560px;
@@ -15,9 +15,9 @@ main {
         section {
             .letra-mio {
                 text-decoration: none;
-                color: #F02624;
-                font-family: Parisienne;
-                font-size: 3rem;
+                font-size: $tamaño-titulos;
+                color: $colores-titulos;
+                font-family: $fuente-titulos;
             }
             div {
                 .margen-yuyu {
@@ -28,9 +28,9 @@ main {
         section {
             .letra-mio {
                 text-decoration: none;
-                color: #F02624;
-                font-family: Parisienne;
-                font-size: 3rem;
+                font-size: $tamaño-titulos;
+                color: $colores-titulos;
+                font-family: $fuente-titulos;
             }
             div {
                 .margen-yuyu {
@@ -41,9 +41,9 @@ main {
         section {
             .letra-mio {
                 text-decoration: none;
-                color: #F02624;
-                font-family: Parisienne;
-                font-size: 3rem;
+                font-size: $tamaño-titulos;
+                color: $colores-titulos;
+                font-family: $fuente-titulos;
             }
             div {
                 a {

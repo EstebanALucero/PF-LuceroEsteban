@@ -1,0 +1,19 @@
+main {
+    div {
+        section {
+            div {
+                h2 {
+                    font-size: $tamaño-titulos;
+                    color: $colores-titulos;
+                    font-family: $fuente-titulos;
+                }
+            }
+            div {
+                .img-comic {
+                    width: $ancho-imagenes;
+                    height: $alto-imagenes;
+                }
+            }
+        }
+    }
+}

@@ -5,9 +5,9 @@ main {
                 margin-bottom: 1rem;
                 .letra-mio {
                     text-decoration: none;
-                    color: #F02624;
-                    font-family: Parisienne;
-                    font-size: 3rem;
+                    color: $colores-titulos;
+                    font-family: $fuente-titulos;
+                    font-size: $tamaño-titulos;
                 }
                 div {
                     div {
@@ -42,10 +42,9 @@ main {
                 margin-bottom: 2rem;
                 .letra-mio {
                     text-decoration: none;
-                    color: #F02624;
-                    font-family: Parisienne;
-                    font-size: 3rem;
-                    margin-right: 4rem;
+                    color: $colores-titulos;
+                    font-family: $fuente-titulos;
+                    font-size: $tamaño-titulos;
                 }
                 div {
                     a {
